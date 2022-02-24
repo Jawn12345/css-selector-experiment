@@ -46,8 +46,10 @@ body {
 }
 
 .secondary > h2 {
-    width: 50%;
-    background-color: mediumseagreen;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: royalblue;
     border: 2px solid red;
 }
 
@@ -61,10 +63,10 @@ body {
     padding-left: 10px;
 }
 
-
-
 .third > h2 {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background-color: hotpink;
     border: 2px solid red;
 }
