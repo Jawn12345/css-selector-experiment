@@ -35,7 +35,7 @@ body {
 }
 
 .main img:hover {
-    width: 110%;
+    width: 120%;
 }
 
 .main p {
@@ -43,6 +43,12 @@ body {
     padding: 10px;
     color: hotpink;
     font-size: 1.1em;
+}
+
+.secondary > h2 {
+    width: 50%;
+    background-color: mediumseagreen;
+    border: 2px solid red;
 }
 
 .secondary {
@@ -53,4 +59,12 @@ body {
 
 .secondary h2 {
     padding-left: 10px;
+}
+
+
+
+.third > h2 {
+    width: 50%;
+    background-color: hotpink;
+    border: 2px solid red;
 }
